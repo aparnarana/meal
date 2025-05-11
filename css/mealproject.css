@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html,body{
+    height: 100%;
+    width: 100%;
+   
+}
+.all{
+    height: 100%;
+    width: 100%;
+}
+
+h1{
+    height: 10%;
+    margin-left: 40%;
+    margin-top: 30px;
+}
+input{
+    height: 40px;
+    width: 40%;
+    margin-top: 15px;    
+    margin-left: 80px;
+    padding: 16px;
+    font-size: large;
+    border: 2px,solid,black;
+}
+.upper-cards{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    margin-top: 25px;
+}
+.card{
+    height: 100%;
+    width: 25%;
+    margin-left: 77px;
+    border: 1px,solid, black;
+}
+.meal-name{
+    text-align: center;
+    font-size: x-large;
+}
+.lower-cards{
+    height: 50%;
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+}
+
+.pagination{
+    height: 30px;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: x-large;
+}

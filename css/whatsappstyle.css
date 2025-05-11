@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html,body{
+    height: 110%;
+    width: 100%;
+   
+}
+.all{
+    height: 110%;
+    width: 100%;
+    background-color:rgb(239, 228, 210);
+}
+.uppersection{
+    height: 10%;
+    color: rgba(12, 215, 8, 0.779);
+    font-size:x-large;
+    font-weight: bold;
+    padding-bottom: 2%;
+}
+.middlesection{
+    height: 23%;
+    
+}
+.box{
+    border: 1px, solid, black;
+    border-radius: 16px;
+    margin-top: 40px;
+    height: 70%;
+    width: 60%;
+    margin-left: 20%;
+    background-color: white;
+    
+}
+
+
+
+.downtext{
+        padding: 8px;
+        font-size: large;
+}
+
+.downbtn {
+    margin-left: 30%;
+    height: 40%;
+    width: 40%;
+    background-color:rgba(12, 215, 8, 0.779);
+    border-radius: 16px;
+    border-color:transparent;
+}
+
+.downbtn a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.lowersection{
+    height: 62%;
+    width: 100%;
+    
+    
+}
+.lowerbox{
+    height:95% ;
+    border: 1px, solid, pink;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    /* width: 100%; */
+}
+.lowerleftbox{
+    width: 70%;
+    height: 80%;
+    margin-top: 30px;
+}
+.lowerleftbox h4{
+    font-size: xx-large;
+    font-weight: lighter;
+}
+
+.logweb{
+    margin-left: 40px;
+}
+.msg{
+    margin-left: 40px;
+    padding: 10px;
+}
+.list{
+    margin-left: 60px;
+    padding: 12px;
+}
+.list li{
+    padding: 12px;
+    
+}
+
+.need{
+    height: 15%;
+}
+
+
+.need a{
+    margin-left: 60px;
+    color: black;
+    
+    
+}
+.withphone a{
+    margin-left: 60px; 
+    color: black;
+}
+/* .lowerrightbox{
+    border: 1px,solid, black;
+    width: 40%;
+    margin-left: 60%;
+}
+
+
+*/
+.lowerrightbox img{
+   
+   margin-top: 55%;
+   margin-right: 40%;
+    
+    
+} 

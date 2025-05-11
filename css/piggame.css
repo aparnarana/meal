@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html,body{
+    height: 100%;
+    width: 100%; 
+    
+}
+.hero{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-image: linear-gradient(to top left, purple,rgb(227, 59, 87));
+}
+.allcontent{
+    height: 100%;
+    width: 50%;
+    margin-left: 25%;
+    background-color:rgb(194, 153, 160);
+    border: 1px,solid, black;
+    
+}
+.player{
+    height: 35%;
+    width: 20%;
+    margin-left: 40%;
+}
+h2{
+    text-align: center;
+    margin-top: 40px;
+    font-size: xx-large;
+}
+.totalscore{
+    text-align: center;
+    margin-top: 40px;
+    font-size: xx-large;
+}
+.current{
+    height:25% ;
+    width: 30%;
+    margin-left: 35%;
+    border-radius: 16px;
+    background-color: rgb(180, 68, 87);
+    border: 1px,solid,black;
+}
+.current-label{
+    height: 60%;
+    font-size: xx-large;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    
+}
+.current-score{
+    height: 40%;
+    font-size: xx-large;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+.allbtn{
+    height: 33%;
+    width: 100%;
+    display: flex;
+}
+.new-game{
+    height: 30%;
+    width: 20%;
+    margin-left: 10%;
+    margin-top: 10%;
+    border-radius: 25px;
+    font-size: large;
+    border-color: transparent;
+}
+.roll-dice{
+    height: 30%;
+    width: 20%;
+    margin-left: 10%;
+    margin-top: 10%;
+    border-radius: 25px;
+    font-size: large;
+    border-color: transparent;
+}
+.hold{
+    height: 30%;
+    width: 20%;
+    margin-left: 10%;
+    margin-top: 10%;
+    border-radius: 25px;
+    font-size: large;
+    border-color: transparent;
+}

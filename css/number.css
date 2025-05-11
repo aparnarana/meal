@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    
+    
+}
+.all{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    border: 1px solid black;
+}
+.header{
+    
+    text-align: center;
+    height: 12%;
+    width: 100%;
+    padding: 20px;
+    font-size: x-large;
+    color:rgb(7, 118, 202) ;
+    background-color: rgb(178, 217, 247);
+
+}
+.allcontent{
+    background-color: rgb(239, 247, 254);
+}
+.random{
+    text-align: center;
+    height: 8%;
+    width: 100%;
+    padding: 10px;
+}
+.button{
+    height: 10%;
+    width: 100%;
+    display: flex;
+}
+.button a{
+    text-decoration: none;
+}
+
+.btn1{
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    margin-left: 40%;
+    border: transparent;
+    background-color: rgb(204, 228, 249);
+    border-radius: 12px;
+}
+.btn2{
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    border: transparent;
+    margin-left: 3px;
+    background-color: rgb(204, 228, 249);
+    border-radius: 12px;
+}
+.btn3{
+    height: 45px;
+    width: 100px;
+    margin-left: 5px;
+    border: transparent;
+    background-color: rgb(204, 228, 249);
+    border-radius: 12px;
+}
+.input{
+    height: 10%;
+    width: 100%;
+    text-align: center;
+   
+}
+.status{
+    height: 40px;
+    width: 35%;
+    margin-top: 16px;
+    margin-left: 35%;
+    text-align: center;
+    border-radius:10px;
+    display: inline;
+    display: flex;
+    padding: 5px;
+    padding-left: 30px;
+    border-color:rgb(208, 226, 242);
+    background-color: white;
+    font-weight: bold;
+
+}
+.btn4{
+    height: 50px;
+    width: 180px;
+    margin-left: 40%;
+    margin-top: 15px;
+    text-align: center;
+    font-size: large;
+    border: transparent;
+    background-color: rgb(204, 228, 249);
+    border-radius: 12px;
+}
+.guess-btn{
+    height: 45px;
+    width: 100px;
+    text-align: center;
+    border: transparent;
+    background-color: rgb(204, 228, 249);
+    border-radius: 12px;
+}
+.hidden{
+    display: none;
+}
+.reset-btn{
+    height: 45px;
+    width: 100px;
+    text-align: center;
+    border: transparent;
+    background-color: rgb(204, 228, 249);
+    border-radius: 12px;
+}
+.text{
+    height: 50%;
+    width: 100%;
+    padding: 32px;
+}
+.text h2{
+    margin-left: 40px;
+    color: rgb(81, 151, 213);
+}
+.text ol{
+    margin-left: 40px;
+    color: rgb(81, 151, 213);
+    padding: 10px;
+}
